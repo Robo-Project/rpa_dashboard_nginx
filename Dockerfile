@@ -1,2 +1,2 @@
-FROM jwilder/nginx-proxy:alpine
+FROM nginx:1.17.9-alpine
 ADD  ./nginx.conf /etc/nginx/
